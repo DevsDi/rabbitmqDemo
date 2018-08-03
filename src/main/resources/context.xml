@@ -1,4 +1,4 @@
-<beans xmlns="http://www.springframework.org/schema/beans"
+﻿<beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rabbit="http://www.springframework.org/schema/rabbit"
 	xsi:schemaLocation="http://www.springframework.org/schema/rabbit
 	http://www.springframework.org/schema/rabbit/spring-rabbit-1.7.xsd
@@ -7,8 +7,8 @@
 	
 	<!--  1.定义RabbitMQ的连接工厂 -->
 	<rabbit:connection-factory id="connectionFactory"
-		host="127.0.0.1" port="5672" username="user_mmr" password="123"
-		virtual-host="/vhost_mmr" />
+		host="127.0.0.1" port="5672" username="dev" password="dev"
+		virtual-host="/dev" />
 		
 	
 	<!-- 2.定义Rabbit模板，指定连接工厂以及定义exchange -->

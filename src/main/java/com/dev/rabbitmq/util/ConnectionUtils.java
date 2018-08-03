@@ -1,4 +1,4 @@
-package com.dev.rabbitmq.util;
+﻿package com.dev.rabbitmq.util;
 
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
@@ -25,13 +25,13 @@ public class ConnectionUtils {
 		factory.setPort(5672);
 		
 		//vhost 
-		factory.setVirtualHost("/vhost_mmr");
+		factory.setVirtualHost("/dev");
 		
 		//用户名 
-		factory.setUsername("user_mmr");
+		factory.setUsername("dev");
 		
 		//密码
-		factory.setPassword("123");
+		factory.setPassword("dev");
 		return factory.newConnection();
 	}
 	
