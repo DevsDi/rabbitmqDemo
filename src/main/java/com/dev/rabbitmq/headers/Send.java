@@ -1,11 +1,11 @@
-package com.mmr.rabbitmq.headers;
+package com.dev.rabbitmq.headers;
 
 import java.io.IOException;
 import java.util.Hashtable;
 import java.util.Map;
 import java.util.concurrent.TimeoutException;
 
-import com.mmr.rabbitmq.util.ConnectionUtils;
+import com.dev.rabbitmq.util.ConnectionUtils;
 import com.rabbitmq.client.AMQP.BasicProperties.Builder;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
